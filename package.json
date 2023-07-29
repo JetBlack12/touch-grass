@@ -1,0 +1,26 @@
+{
+  "name": "touch-grass",
+  "displayName": "Touch Grass",
+  "description": "a vscode theme to help you feel like you are touching grass",
+  "version": "0.0.1",
+  "publisher": "JetBlack",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "touch-grass",
+        "uiTheme": "vs-dark",
+        "path": "./themes/touch-grass-color-theme.json"
+      }
+    ]
+  }
+}
